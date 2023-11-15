@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/powercoffee
     username: postgres
-    password: 204060120
+    password: 1234
 
   jpa:
     open-in-view: true
