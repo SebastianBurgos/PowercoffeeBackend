@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/powercoffee
-    username: postgres
+    url: jdbc:mysql://localhost:3306/powercoffee?useSSL=false&serverTimezone=UTC
+    username: root
     password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     open-in-view: true

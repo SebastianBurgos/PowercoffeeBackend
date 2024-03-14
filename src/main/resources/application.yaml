@@ -1,4 +1,4 @@
 # prod - dev - test
 spring:
   profiles:
-    active: prod
+    active: dev
